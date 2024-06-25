@@ -1,0 +1,88 @@
+.slot {
+    /* Base styling for the slot */
+    padding: 8px;
+    margin: 4px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: rgb(105, 151, 242);
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .selected {
+    /* Styling for selected slots */
+    background-color: rgb(105, 151, 242); /* Blue color for selected slots */
+    color: #000000; /* White text color for better visibility */
+  }
+  
+  .disabled {
+    /* Styling for disabled slots */
+    background-color: rgb(121, 120, 120);
+    /* opacity: 0.5; Reduce opacity for disabled slots */
+    border-color:rgb(169, 167, 167) ;
+    cursor: not-allowed; /* Change cursor to indicate disabled state */
+  }
+  
+  .ManageSlots-container{
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .manage-background{
+    background-color: lightblue;
+  }
+
+.manage-btn{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  margin-right: 3px;
+  background-color: rgb(29, 190, 29);
+}
+
+.manage-btn:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: rgb(15, 106, 15);
+}
+
+.remove-slot-btn{
+  margin-left: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  background-color: rgb(249, 37, 37);
+}
+
+.remove-slot-btn:hover{
+  background-color: rgb(159, 23, 23);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.nav-manage{
+  color: black;
+    padding: 10px 16px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.addslot-manage{
+  width: 400px;
+  margin-left: 600px;
+  background-color: lightblue;
+  height: 100vh;
+}
+
+input[type="text"]::placeholder {
+  /* Center align the placeholder text */
+  text-align: center;
+}
+
+.addslotonaday-manage{
+  width: 400px;
+  margin-left: 600px;
+  background-color: lightblue;
+  height: 100vh;
+}

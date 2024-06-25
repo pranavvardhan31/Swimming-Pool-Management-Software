@@ -1,0 +1,164 @@
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-option {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-option a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.nav-option a:hover {
+  background-color: rgba(255, 255, 255, 0.285);
+  border-radius: 8px;
+  text-decoration: underline;
+}
+
+/* Example styling for big image */
+.big-image {
+  width: 100%;
+  height: 100%;
+}
+
+.big-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* Additional styling for SPMS header */
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-title {
+  padding-left: 30px;
+  font-size: 28px;
+  margin-right: 10px;
+  color: whitesmoke;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* CSS for Footer */
+
+footer {
+  background-color: #333; /* Footer background color */
+  color: #fff; /* Footer text color */
+  padding: 5px; /* Footer padding */
+  padding-right: 10px;
+  text-align: start;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-title {
+  font-size: 1.5rem; /* Contact title font size */
+  margin-bottom: 10px; /* Space below contact title */
+  font-weight: bold;
+  font-style: cursive;
+  padding-left: 10px;
+  text-decoration: underline;
+  padding-right: 100px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  font-style: cursive;
+}
+
+.contact-item {
+  margin-bottom: 5px; /* Space between contact items */
+}
+
+.contact-label {
+  font-weight: bold; /* Bold label text */
+  font-style: cursive;
+  padding-left: 10px;
+  color: yellow;
+}
+
+.contact-url {
+  color: #fff; /* Link color */
+}
+
+.contact-url:hover {
+  color: #c9c9c9; /* Change link color on hover */
+}
+
+.phone-item{
+  padding-bottom: 5px;  
+}
+
+.address-item{
+  padding-bottom: 5px;
+  
+}
+
+.location-item{
+  padding-bottom: 5px;
+  margin-right: 160px;
+}
+
+.email-item{
+  margin-right: 23px;
+}
+
+.social-icons {
+  padding-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-icons a {
+  margin-left: 5px;
+/* Adjust the color as needed */
+  color: white;
+  font-size: 54px; /* Adjust the size as needed */
+}
+
+.insta{
+  padding-right: 15px;
+}
+
+.facebook{
+  padding-right: 15px;
+}
+
+.youtube{
+  padding-right: 15px;
+}
+
+.insta:hover{
+  color: rgb(231, 8, 145);
+}
+
+.facebook:hover{
+  color: blue;
+}
+
+.youtube:hover{
+  color: red;
+}
+
+.twitter:hover{
+  color: blue;
+}

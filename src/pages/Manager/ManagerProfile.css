@@ -1,0 +1,177 @@
+/* ManagerProfile.css */
+
+.manager-profile{
+  background-image: url('https://th.bing.com/th/id/R.096679a7c4cbdaa72a211366f9a74d9d?rik=SCmrF3a8mDu6mQ&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f42600000%2fBlue-Swimming-Pool-Water-cherl12345-tamara-42653070-1920-1080.png&ehk=vYOXBBlRY9kIPJCoPc6T8sxemMWEP5Ne19tMXQIOBwE%3d&risl=&pid=ImgRaw&r=0');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.manager-profile-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .edit-profile-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-profile-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* manager-sidebar styles */
+  .manager-sidebar {
+    position: fixed;
+    margin-top: 68px;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 100%;
+    
+    background-color:#343a40; /* Nice blue color for the manager-sidebar */
+    padding: 20px;
+  }
+
+  .manager-sidebar ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+
+  
+  .manager-sidebar a {
+    display: block;
+    margin-bottom: 20px;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    background-color: #fff; /* Background color for manager-sidebar links */
+    /* border-radius: 10px; Rounded corners */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .manager-sidebar a:hover {
+    color: #555;
+  }
+
+  .nav-profile{
+    color: black;
+    padding: 10px 16px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+
+  .manager-sidebar-btn {
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 170px;
+    transition: color 0.3s ease;
+    background-color: #343a40; /* Background color for manager-sidebar links */
+    /* border-radius: 10px; Rounded corners */
+    text-align: center;
+    /* margin-left: 10px; */
+  }
+
+  .manager-sidebar-btn:hover {
+    background-color: #343a40;
+    color: wheat;
+    /* transform: translateY(-1px);  */
+  }
+
+  .manager-sidebar-btn.active {
+    color: lightsalmon; /* Nice red color for active manager-sidebar links */
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+    /* border-radius: 10px; */
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius:-2em;
+    border-top-right-radius:-10 px ;
+    transform: translateX(+15px); 
+    /* height: 30px; */
+  }
+
+
+
+  /* Content section styles */
+  .profile-content {
+
+    margin-top: 60px;
+    margin-left: 250px; /* Adjust based on sidebar width and padding */
+    padding: 20px;
+  }
+  
+  .content-section.hidden {
+    display: none;
+  }
+  
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7); /* Light background color for content sections */
+    padding: 15px;
+    /* max-width: 300px; */
+    width: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,   0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Nice green color for buttons */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: calc(100% - 20px); /* Adjust padding and borders */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and borders in width calculation */
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: #a92828; /* Nice red color for error messages */
+    margin-top: 5px;
+  }

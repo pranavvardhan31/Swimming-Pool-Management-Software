@@ -1,0 +1,63 @@
+.cancel-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://th.bing.com/th/id/R.096679a7c4cbdaa72a211366f9a74d9d?rik=SCmrF3a8mDu6mQ&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f42600000%2fBlue-Swimming-Pool-Water-cherl12345-tamara-42653070-1920-1080.png&ehk=vYOXBBlRY9kIPJCoPc6T8sxemMWEP5Ne19tMXQIOBwE%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+  }
+
+.cancel-reasons-container {
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: black;
+    font-size: 40;
+    text-decoration: underline;
+    text-align: center; /* Dark blue heading */
+  }
+  
+  .cancel-reasons-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #87ceeb; /* Dark blue table background */
+  }
+  
+  .cancel-reasons-table th,
+  .cancel-reasons-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .cancel-reasons-table th {
+    background-color: #ADD8E6; /* Light blue header */
+    color: #000080; /* Navy blue text */
+  }
+  
+  .cancel-reasons-table tbody tr:first-child {
+    background-color: #f0f8ff; /* Light blue for the first row */
+  }
+  
+  .cancel-reasons-table tbody tr:not(:first-child) {
+    background-color: #fff; /* White background for other rows */
+  }
+  
+  .cancel-reasons-table tbody tr:hover {
+    background-color: #b0e0e6; /* Lighter hover row color */
+  }
+
+  .nav-cancel{
+    color: black;
+    padding: 10px 16px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    text-decoration: underline;
+    font-weight: bolder;
+  }

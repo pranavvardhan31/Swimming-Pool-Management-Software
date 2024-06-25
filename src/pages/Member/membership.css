@@ -1,0 +1,57 @@
+.member {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;    
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="tel"],
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .image-preview {
+    margin-top: 10px;
+  }
+  
+  .image-preview img {
+    width: 9rem;
+    height: 7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  img{
+    width: 9rem;
+    height: 12rem;
+    object-fit: cover;
+
+  }
+  .getmembtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:200px;
+  }
+  
+  .getmembtn:hover {
+    background-color: #0056b3;
+  }
+  

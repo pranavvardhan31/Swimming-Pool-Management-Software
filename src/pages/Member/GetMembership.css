@@ -1,0 +1,118 @@
+.application-container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/203301.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  .application-overlay {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .application-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .application-pending {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .application-edit-btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Example button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .application-form {
+    align-items: center;
+    width: 60%;
+    margin-left:95px ;
+  }
+  
+  .application-input-group {
+    margin-bottom: 15px;
+
+  }
+  
+  .membership-label {
+    display: inline-block;
+    width: 150px; /* Adjust width as needed */
+    text-align: right;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Text color */
+  }
+  
+  .application-input-text,
+  .application-input-file {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .application-submit-btn {
+    padding-top: 15px;
+    background-color: #007bff; /* Blue color for Book Pool button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .application-submit-btn:hover {
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .application-input-group {
+    margin-bottom: 20px; /* Increased margin for more gap */
+  }
+  
+  .application-input-text,
+  .application-input-file,
+  .application-input-calendar {
+    margin-left: 10px;
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px; /* Added margin top for input elements */
+  }
+  
+  .application-input-calendar::placeholder {
+    text-align: center; /* Center the placeholder text */
+  }
+
+  .application-input-group label {
+    display: inline-block; /* Ensure labels can have a specific width */
+    width: 100px; /* Adjust the width of labels as needed */
+    text-align: right; /* Align label text to the right */
+    margin-bottom: 5px; /* Adjusted margin bottom for labels */
+  }
+  
+  

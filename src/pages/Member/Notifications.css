@@ -1,0 +1,70 @@
+.Notify{
+    background-image: url('https://wallpaperaccess.com/full/203301.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notifications-page {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    max-width: 600px;
+    width: 500px;
+    height: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(248, 249, 250, 0.8); /* Semi-transparent white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+  }
+
+.delete-btn {
+  position: absolute;
+  top:0px;
+  right: 0px;
+  background-color: transparent;
+  color: red;
+  border: none;
+  cursor: pointer;
+  font-size: medium;  
+
+}
+.delete-btn:hover{
+    background-color: transparent;
+}
+
+.notification-item {
+  position: relative; /* Ensure positioning context for absolute positioning */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+  .notifications-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .notifications-page h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .notifications-page hr {
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  .notifications-page .new-notifications {
+    margin-bottom: 20px;
+  }
+  

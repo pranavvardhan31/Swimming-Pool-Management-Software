@@ -1,0 +1,100 @@
+/* Signup.css */
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://wallpaperaccess.com/full/203301.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.signup-form {
+    background-color: rgba(255, 255, 255,0.7); /* Semi-transparent white background */
+    padding: 20px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    text-align: center; /* Center-align text */
+    color: black;
+}
+  
+.signup-form h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    text-decoration: underline;
+}
+  
+.signup-form div {
+    margin-bottom: 10px;
+}
+  
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  
+.signup-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.signup-btn:hover {
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: underline;
+}
+  
+.signup-heading {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.signup-error-message {
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.signup-label{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.signup-back{
+    text-align: end;
+    display: inline-block; /* Display as inline block to fit content */
+    padding: 8px 8px; /* Reduced padding for the button */
+    color: black;
+    padding-top: 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .signup-back:hover{
+    color: black;
+    text-decoration: underline;
+  }

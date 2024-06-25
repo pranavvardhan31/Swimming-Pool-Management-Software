@@ -1,0 +1,112 @@
+/* BookSlot.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* BookSlots component styles */
+.bookslot-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://wallpaperaccess.com/full/203301.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.bookslot-semi-transparent-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Adjust as needed */
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white box */
+  z-index: 1;
+  border-radius: 5px;
+}
+
+/* Rest of the styles for the content within the semi-transparent box */
+.bookslot-container h1,
+.bookslot-container h2,
+.bookslot-container p,
+.bookslot-container input,
+.bookslot-container button {
+  /* Text color */
+  /* Add more styles as needed */
+  font-weight: bold;
+}
+
+/* Additional styles for specific elements */
+.bookslot-calendar-input {
+  margin-bottom: 20px;
+}
+
+.bookslot-selected-slots {
+  margin-top: 20px;
+}
+
+
+.bookslot-container1{
+  background-color: rgba(255, 255, 255,0.7);
+  width: 500px;
+  text-align: center;
+}
+
+.bookslot-welcome{
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.bookslot-update-btn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.bookslot-update-btn:hover{
+  background-color: #fff;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.bookslots-back{
+  text-align: end;
+  display: inline-block; /* Display as inline block to fit content */
+  padding: 8px 8px; /* Reduced padding for the button */
+  color: black;
+  padding-top: 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bookslots-back:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.bookslots-book{
+  font-size: 45px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}

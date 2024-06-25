@@ -1,0 +1,51 @@
+.rules-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #555;
+  text-align: center; /* Align text to the left (start) */
+}
+
+.rules-container h2 {
+  font-size: 24px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: #333;
+}
+
+.Credits {
+  font-size: 24px;
+  color: darkblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: end;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.rules-h1 {
+  text-decoration: underline;
+  font-size: 40px;
+  color: darkblue;
+}
+
+.rules-back{
+  text-align: end;
+  display: inline-block; /* Display as inline block to fit content */
+  padding: 8px 8px; /* Reduced padding for the button */
+  color: black;
+  padding-top: 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rules-back:hover{
+  color: black;
+  text-decoration: underline;
+}
